@@ -1,0 +1,12 @@
+{
+    "name": "postgres-mcp",
+    "description": "Postgres MCP Server",
+    "repository": "https://github.com/crystaldba/postgres-mcp",
+    "keywords": ["python", "mcp", "heroku"],
+    "image": "heroku/python",
+    "buildpacks": [
+        {
+            "url": "https://github.com/heroku/heroku-buildpack-python#experimental-uv-support"
+        }
+    ]
+}

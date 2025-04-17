@@ -634,3 +634,7 @@ The instructions below are for developers who want to work on Postgres Pro, or u
    ```bash
    uv run postgres-mcp "postgres://user:password@localhost:5432/dbname"
    ```
+
+## Deploy on Heroku
+
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://www.heroku.com/deploy?template=https://github.com/jabrown85/postgres-mcp/tree/jab/heroku-ify)
