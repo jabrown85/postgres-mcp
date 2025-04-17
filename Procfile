@@ -1,0 +1,1 @@
+mcp-postgres: DATABASE_URI=$DATABASE_URL postgres-mcp
